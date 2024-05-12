@@ -13,7 +13,7 @@ const App = () => {
   const scroll = new LocomotiveScroll();
   
   return (
-    <main className="bg-black overflow-y-auto">
+    <main className="bg-black overflow-x-hidden overflow-y-auto">
       <Navbar />
       <Hero />
       <Highlights />
